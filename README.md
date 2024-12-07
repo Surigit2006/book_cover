@@ -29,6 +29,50 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+
+```
+<html>
+    <head>
+        <title>book cover</title>
+        <style>
+            body{
+                background-repeat: no-repeat;
+                background-size: 40cap;
+                background-position: center;
+                text-align: center;
+                
+            }
+            .container {
+                display: flex;
+                justify-content: center; /* Horizontally center */
+                align-items: center;    /* Vertically center */
+                height: vh;          /* Full screen height */
+            }
+            
+        </style>
+    </head>
+    {% load static %}
+    <body background="{% static '312202de89b7aec6df5a1a1adbbfe546.jpg' %}">
+        <br><br><br><br><br><br><br><br>
+        <font color="red" size="8">The</font><br>
+        <font color="red" size="9">Fairytale</font><br>
+        <font color="red" size="3">(love story)</font><br>
+        <font color="white" size="3"></font><br><br>
+        
+        
+        <div class="container">
+            
+            <img src="{% static 'voilinanime.jpg' %}" style="width: 300px; height: 300px;">
+        </div>
+     
+        <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: red;">Suriya</h1>
+    </body>
+</html>
+```
 # OUTPUT:
+
+![alt text](<Screenshot 2024-12-07 115940.png>)
+
+
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
