@@ -71,7 +71,8 @@ Publish the website in the LocalHost.
 ```
 # OUTPUT:
 
-![alt text](<Screenshot 2024-12-07 115940.png>)
+![Screenshot 2024-12-07 170839](https://github.com/user-attachments/assets/710bb85b-4075-44ba-b93e-f6b2267c4ab5)
+
 
 
 # RESULT:
