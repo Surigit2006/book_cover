@@ -62,7 +62,7 @@ Publish the website in the LocalHost.
         
         <div class="container">
             
-            <img src="{% static 'voilinanime.jpg' %}" style="width: 300px; height: 300px;">
+            <img src="{% static 'voilinanime.jpg' %}" style="width: 400px; height: 400px;">
         </div>
      
         <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: red;">Suriya</h1>
